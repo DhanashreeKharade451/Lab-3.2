@@ -1,50 +1,52 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: outfit, sans-serif;
-    background-color: hsl(212, 45%, 89%);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: grid;
+/* Body */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%); 
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
-.container{
-    padding: 1rem;
+/* Container */
+.container {
+  padding: 1rem;
 }
 
-.card{
-   background-color: hsl(0, 0%, 100%);
-   width: 375px;
-    padding: 16px;
-    border-radius: 20px;
-   text-align: center;
-   
+/* Card */
+.card {
+  background-color: hsl(0, 0%, 100%); 
+  width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 
-.img{
-   width: 100%;
-   border-radius: 11px;
+.qr-image {
+  width: 100%;
+  border-radius: 12px;
 }
 
-.title{
-    font-size: 20px;
-    font-weight: 700;
-    color:hsl(218, 44%, 22%);
-    margin: 1rem 0 0.75rem;
-    
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin: 16px 0 12px;
 }
 
-.description{
-    font-size: 15px;
-    font-weight: 400;
-    color: rgb(137, 138, 153);
-    padding: 0 0.5rem 1rem;
-} */
+/* Description */
+.description {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%); 
+  line-height: 1.4;
+  padding: 0 8px 16px;
+}
