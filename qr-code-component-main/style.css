@@ -42,7 +42,7 @@ body{
 .title{
     font-size: 20px;
     font-weight: 700;
-    color: var(--slate-900);
+    color:hsl(218, 44%, 22%);
     margin: 1rem 0 0.75rem;
     
 }
